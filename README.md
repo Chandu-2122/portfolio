@@ -90,7 +90,7 @@ Willingness to take on additional responsibilities to meet the team and company 
    ![Data](/assets/data_snippet.png)
   
   - **Conclusion**: Got to know that the success of web scrapping depends on various factors:
-    - Headers: Many websites require a valid user-agent string which allows/blocks/restricts the reuests.
-    - Website Policies: Some websites like amazon are having strict anti-scraping policies that are preventing or limiting scraping attempts.
-    - Website Changes: As we are relying on specific HTML tags to web scrape the data, sometimes our code might not be able to find the required HTML elements if the website changes its structure.
+    - `Headers`: Many websites require a valid user-agent string which allows/blocks/restricts the reuests.
+    - `Website Policies`: Some websites like amazon are having strict anti-scraping policies that are preventing or limiting scraping attempts.
+    - `Website Changes`: As we are relying on specific HTML tags to web scrape the data, sometimes our code might not be able to find the required HTML elements if the website changes its structure.
       
