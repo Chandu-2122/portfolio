@@ -1,11 +1,6 @@
 # Portfolio
 
-## Data Analyst | ML Engineer
 
-## Education
-- Parul University, Gujarat (_2020 - 2024_)
-  
-  BTech, Computer Science Engineering with Artificial Intelligence specialization
 
 ## Technical Skills
 
