@@ -59,7 +59,9 @@ Willingness to take on additional responsibilities to meet the team and company 
     -  In Urban Telangana, Rangareddy district had 34% of illiterates of which maximum number of illiterates(19126) were from Serilingampally Muncipality, and least(19) were in Ibrahimpatnam Muncipality.
     -  According to [indiacensus.net](https://www.indiacensus.net/states/telangana/literacy), the top 3 highest illiterate districts of Telangana in the year 2023 are Jogulamba Gadwal(former Mahabubnagar), Narayanpet(former Mahabubnagar) and Nagarkurnool(former Mahabubnagar).
   - **Result**: Conducted in-depth analysis of the illiteracy rates in rural Telangana using data sourced from Open Data Telangana and analyzed the number of illiterates in 2014 and compared these statistics with the current year (2023) to gauge changes and trends in literacy rates over the years.
-        ![Dashboard](/assets/powerbi_snippet.png)
+
+     ![Dashboard](/assets/powerbi_snippet.png)
+    
   - **Conclusion**: Even after 9 years, the district that was once known as Mahabubnagar has the highest percentage of illiterates in Telangana.
 
 ### [**- Web Scraping and Data Extraction from Amazon.in for Electronic Gadgets**](https://github.com/Chandu-2122/Web_Scrapping)
@@ -67,28 +69,29 @@ Willingness to take on additional responsibilities to meet the team and company 
   - Collected comprehensive data on electronic gadgets commonly used by software employees or students, such as laptops, tablets, smartphones, smartwatches, headphones, earphones, and earbuds. The focus was to extract this data during the Diwali season, especially emphasizing offer deals.
   -  **Data Source**: The data is scrapped from 'amazon.in' website.
   -  **Dataset Description**: Our required data from the webpage:
-    - `name`: Title of the product
-    - `brand`: Brand of the product
-    - `model_name`: Model name of the product
-    - `screen_size`: Display size of the screen
-    - `colour`: Colour of the product
-    - `cpu_model`: CPU model of the product
-    - `ram_memory_installed_size`: Installed size of ram memory in the product
-    - `operating_system`: Operating System of the product
-    - `mrp`: Actual price of the product
-    - `offer`: Offer on the product
-    - `number_of_purchase_in_last_month`: Number of purchases of the product in last month
-    - `number_of_ratings`: Number of ratings received for the product
-    - `rating`: Overall rating of the product
+      - `name`: Title of the product
+      - `brand`: Brand of the product
+      - `model_name`: Model name of the product
+      - `screen_size`: Display size of the screen
+      - `colour`: Colour of the product
+      - `cpu_model`: CPU model of the product
+      - `ram_memory_installed_size`: Installed size of ram memory in the product
+      - `operating_system`: Operating System of the product
+      - `mrp`: Actual price of the product
+      - `offer`: Offer on the product
+      - `number_of_purchase_in_last_month`: Number of purchases of the product in last month
+      - `number_of_ratings`: Number of ratings received for the product
+      - `rating`: Overall rating of the product
   - **Data Preperation**: Required data was extracted from the webpage by finding the mentioned tags and if no such tag was found then that value is replaced with an empty string.
    Products having no title value were removed from the dataset and then saved as a csv file.
   - **Libraries Used**:
-    - `requests` : Used for sending HTTP requests to websites to fetch the HTML content of web pages
-    - `BeautifulSoup (from bs4)` : Used for parsing the HTML content obtained using the 'requests' library
-    - `pandas` : Used to create the DataFrame to organize and structure the scraped data
-    - `numpy`: Used to replace null values
+      - `requests` : Used for sending HTTP requests to websites to fetch the HTML content of web pages
+      - `BeautifulSoup (from bs4)` : Used for parsing the HTML content obtained using the 'requests' library
+      - `pandas` : Used to create the DataFrame to organize and structure the scraped data
+      - `numpy`: Used to replace null values
   - **Result**: Was successfully able to web scrape the amazon.in data once before the header i used got blocked or restricted.
   - **Data Snippet**
+    
    ![Data](/assets/data_snippet.png)
   
   - **Conclusion**: Got to know that the success of web scrapping depends on various factors:
