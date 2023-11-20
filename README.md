@@ -5,8 +5,11 @@ Organized and dependable candidate successful at managing multiple priorities wi
 Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology. 
 Willingness to take on additional responsibilities to meet the team and company goals. 
 
-## Technical Skills
+## Education
+Parul University, Gujarat  [_2020 – 2024_]
+Under Graduation: BTech, Computer Science Engineering with Specialization  in Artificial Intelligence 
 
+## Technical Skills
 - Operating System: `Windows`
 - Software/Tools: `Visual Studio Code`, `Power BI`, `Excel`, `Git`
 - Database/Server: `MySQL`, `PostgreSQL`
@@ -15,6 +18,7 @@ Willingness to take on additional responsibilities to meet the team and company 
 - Python Libraries: `Pandas`, `Matplotlib`, `Plotly`, `Seaborn`, `Numpy`, `Scikit-Learn`, `Keras`, `TensorFlow`, `NLTK`, `BeautifulSoup`
 
 ## Projects
+
 ### [**- Streamlit Exploratory Data Analysis App**](https://chandu-2122-streamlit-eda-app-main-ehhr37.streamlit.app/)
 
   - A one-line Exploratory Data Analysis (EDA) experience in a consistent and fast solution using ydata-profiling and Streamlit allowing users to conduct comprehensive EDA effortlessly.
@@ -32,6 +36,8 @@ Willingness to take on additional responsibilities to meet the team and company 
    ![streamlit_eda](/assets/streamlit_eda.png)
   - **Result**: Based on the uploaded CSV file or the example dataset, the EDA report is generated with the help of ydata-profiling and Streamlit on this app.
   - **Conclusion**: Streamlit framework made easy to build web application for machine learning by simplifying the creation of interactive and data-driven apps.
+
+___
 
 ### [**- Exploratory Data Analysis (EDA) on Rural Telangana Illiteracy Rates**](https://github.com/Chandu-2122/Power_BI)
   - **Objective**: Analyse the number of illiterates in Telangana during the year 2014 and compare it with the current year(2023).
@@ -59,6 +65,8 @@ Willingness to take on additional responsibilities to meet the team and company 
      ![Dashboard](/assets/powerbi_snippet.png)
     
   - **Conclusion**: Even after 9 years, the district that was once known as Mahabubnagar has the highest percentage of illiterates in Telangana.
+
+___
 
 ### [**- Web Scraping and Data Extraction from Amazon.in for Electronic Gadgets**](https://github.com/Chandu-2122/Web_Scrapping)
 
@@ -95,3 +103,4 @@ Willingness to take on additional responsibilities to meet the team and company 
     - `Website Policies`: Some websites like amazon are having strict anti-scraping policies that are preventing or limiting scraping attempts.
     - `Website Changes`: As we are relying on specific HTML tags to web scrape the data, sometimes our code might not be able to find the required HTML elements if the website changes its structure.
       
+___
