@@ -1,4 +1,6 @@
-# Data Analyst | ML Engineer
+# Portfolio
+
+## Data Analyst | ML Engineer
 
 ## Education
 - Parul University, Gujarat (_2020 - 2024_)
