@@ -1,7 +1,9 @@
 # Data Scientist
 
 ## Education
-- BTech, Computer Science Engineering with Artificial Intelligence specialization | Parul University, Gujarat (_2020 - 2024_)
+- Parul University, Gujarat (_2020 - 2024_)
+  
+  BTech, Computer Science Engineering with Artificial Intelligence specialization
 
 ## Technical Skills
 
@@ -53,18 +55,44 @@ Streamlit framework made easy to build web application for machine learning by s
 [Github Repository](https://github.com/Chandu-2122/Power_BI)
 
 #### Objective
+Analyse the number of illiterates in Telangana during the year 2014 and compare it with the current year(2023).
+
 #### Data Source
+The dataset is taken from [Open Data Telangana](https://data.telangana.gov.in/dataset/number-illiterates-rural-telangana)
+
 #### Dataset Description
+The dataset provides information about the number of illiterates in the rural areas of Telangana State by gender to gram panchayat level. This data is according to the old districts during the perioid 2014.
+
+
 #### Data Preperation
+
+
 #### Visualizations
-#### Insights Gained
-#### Future Scope
+
+
+#### Insights Gained 
+ - During the period 2014, the top 3 highest number of illiterates according to the old districts were in Rural Telangana from Mahabubnagar with 14,75,524 members, Karimnagar with 10,58,837 members and Nalgonda with 10,45,305 members.
+  
+  - And in Urban Telangana the top 3 highest number of illiterates were from Rangareddy with 5,10,184 members, Warangal with 1,85,698 members and Karimnagar with 1,67,189 members.
+  
+  - The number of female illiterates was more than the male and transgender in Telangana.
+  
+  - In Rural Telangana, Mahabubnagar district had 17% of illiterates of which maximum number of illiterates(6240) were from Makthal GP, and least(1) were in Rallacheruvu Thanda GP.
+  
+  - In Urban Telangana, Rangareddy district had 34% of illiterates of which maximum number of illiterates(19126) were from Serilingampally Muncipality, and least(19) were in Ibrahimpatnam Muncipality.
+
+  - According to [indiacensus.net](https://www.indiacensus.net/states/telangana/literacy), the top 3 highest illiterate districts of Telangana in the year 2023 are Jogulamba Gadwal(former Mahabubnagar), Narayanpet(former Mahabubnagar) and Nagarkurnool(former Mahabubnagar).
+
+#### Result
+Conducted in-depth analysis of the illiteracy rates in rural Telangana using data sourced from Open Data Telangana and analyzed the number of illiterates in 2014 and compared these statistics with the current year (2023) to gauge changes and trends in literacy rates over the years.
+
+#### Conclusion
+- Even after 9 years, the district that was once known as Mahabubnagar has the highest percentage of illiterates in Telangana.
 
 ### Web Scraping and Data Extraction from Amazon.in for Electronic Gadgets
 [Github Repository](https://github.com/Chandu-2122/Web_Scrapping)
 
-#### Objective
-Collecting comprehensive data on electronic gadgets commonly used by software employees or students, such as laptops, tablets, smartphones, smartwatches, headphones, earphones, and earbuds. The focus is on extracting this data during the Diwali season, especially emphasizing offer deals.
+Collected comprehensive data on electronic gadgets commonly used by software employees or students, such as laptops, tablets, smartphones, smartwatches, headphones, earphones, and earbuds. The focus was to extract this data during the Diwali season, especially emphasizing offer deals.
 
 #### Data Source
 The data is scrapped from 'amazon.in' website.
@@ -98,21 +126,10 @@ Our required data from the webpage:
 
 **rating**: Overall rating of the product
 
-#### Project Structure
-1. fuctions.py:
-
-This file has all the functions required to extract the necessary data from the amazon.in website
-
-2. main.py:
-
-This file has the main part:
-
-Web scrapping the required data from 20 pages in the URLs of required products(laptop, tab, smartphone, smartwatch, earphones, earbuds, headphones) and saving it as csv files.
-
 #### Data Preperation
-With the functions, required data was extracted from the webpage by finding the mentioned tags and if no such tag was found that value is replaced with an empty string.
+Required data was extracted from the webpage by finding the mentioned tags and if no such tag was found then that value is replaced with an empty string.
 
-And then, products having no title value were removed from the dataset and then saved as a csv file.
+Products having no title value were removed from the dataset and then saved as a csv file.
 
 #### Libraries Used
 1. **requests** : Used for sending HTTP requests to websites to fetch the HTML content of web pages
