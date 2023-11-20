@@ -1,20 +1,27 @@
 # Portfolio
-
-
+Organized and dependable candidate successful at managing multiple priorities with a positive attitude. 
+Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology. 
+Willingness to take on additional responsibilities to meet the team and company goals. 
 
 ## Technical Skills
 
-**Operating System**: Windows
+#### Operating System:
+Windows
 
-**Software/Tools**: Visual Studio Code, Power BI, Excel, Git
+#### Software/Tools: 
+Visual Studio Code, Power BI, Excel, Git
 
-**Database/Server**: MySQL, PostgreSQL
+#### Database/Server: 
+MySQL, PostgreSQL
 
-**Programming Languages**: C, C++, Python, SQL, HTML, CSS
+#### Programming Languages: 
+C, C++, Python, SQL, HTML, CSS
 
-**Frameworks**: Django, Streamlit
+#### Frameworks: 
+Django, Streamlit
 
-**Python Libraries**: Pandas, Matplotlib, Plotly, Seaborn, Numpy, Scikit-Learn, Keras, TensorFlow, NLTK, Django, streamlit, BeautifulSoup
+#### Python Libraries: 
+Pandas, Matplotlib, Plotly, Seaborn, Numpy, Scikit-Learn, Keras, TensorFlow, NLTK, Django, streamlit, BeautifulSoup
 
 ## Projects
 ### **- Streamlit Exploratory Data Analysis App**
@@ -93,7 +100,7 @@ The dataset provides information about the number of illiterates in the rural ar
 Conducted in-depth analysis of the illiteracy rates in rural Telangana using data sourced from Open Data Telangana and analyzed the number of illiterates in 2014 and compared these statistics with the current year (2023) to gauge changes and trends in literacy rates over the years.
 
 #### Conclusion
-- Even after 9 years, the district that was once known as Mahabubnagar has the highest percentage of illiterates in Telangana.
+Even after 9 years, the district that was once known as Mahabubnagar has the highest percentage of illiterates in Telangana.
 
 ### **- Web Scraping and Data Extraction from Amazon.in for Electronic Gadgets**
 [Github Repository](https://github.com/Chandu-2122/Web_Scrapping)
