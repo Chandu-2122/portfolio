@@ -7,7 +7,8 @@ Willingness to take on additional responsibilities to meet the team and company 
 
 ## Education
 Parul University, Gujarat  [_2020 – 2024_]
-Under Graduation: BTech, Computer Science Engineering with Specialization  in Artificial Intelligence 
+
+Under Graduation: BTech, Computer Science Engineering with Specialization in Artificial Intelligence 
 
 ## Technical Skills
 - Operating System: `Windows`
