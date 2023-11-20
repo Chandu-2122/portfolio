@@ -18,8 +18,7 @@ Willingness to take on additional responsibilities to meet the team and company 
 
   - A one-line Exploratory Data Analysis (EDA) experience in a consistent and fast solution using ydata-profiling and Streamlit allowing users to conduct comprehensive EDA effortlessly.
   - **Working**: This app analyzes the uploaded CSV files, providing in-depth insights into the dataset's characteristics through exploratory data analysis techniques.
-  - **Features**:
-    - Upload CSV: Allows users to upload their CSV files for analysis.
+  - **Features**:    - Upload CSV: Allows users to upload their CSV files for analysis.
     - Profiling Report: Generates an exploratory data analysis report using ydata_profiling.
     -  Example Dataset: Offers the option to explore an example dataset in the absence of an uploaded CSV file.
   - **Libraries Used**:
@@ -38,18 +37,14 @@ Willingness to take on additional responsibilities to meet the team and company 
   - **Data Source**: The dataset is taken from [Open Data Telangana](https://data.telangana.gov.in/dataset/number-illiterates-rural-telangana)
   - **Dataset Description**: The dataset provides information about the number of illiterates in the rural areas of Telangana State by gender to gram panchayat level. This data is according to the old districts during the perioid 2014.
   - **Visualizations**:
-    
-   `Mahabubnagar district`
-   ![Rural_Mahabubnagar_1](/assets/r1m.png)
- 
-   `Karimnagar district`
-   ![Rural_Karimnagar_2](/assets/rk2.png)
-   
-   `Rangareddy district`
-   ![Urban_Rangareddy_1](/assets/ur1.png)
-   
-   `Warangal district`
-   ![Urban_Warangal_2](/assets/uw2.png)
+     - `Mahabubnagar district`
+     ![Rural_Mahabubnagar_1](/assets/r1m.png)
+     - `Karimnagar district`
+     ![Rural_Karimnagar_2](/assets/rk2.png)
+     - `Rangareddy district`
+     ![Urban_Rangareddy_1](/assets/ur1.png)
+     - `Warangal district`
+     ![Urban_Warangal_2](/assets/uw2.png)
    
   - **Insights Gained**:
     - During the period 2014, the top 3 highest number of illiterates according to the old districts were in Rural Telangana from Mahabubnagar with 14,75,524 members, Karimnagar with 10,58,837 members and Nalgonda with 10,45,305 members.
