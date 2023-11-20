@@ -5,15 +5,15 @@ Willingness to take on additional responsibilities to meet the team and company 
 
 ## Technical Skills
 
-#### Operating System: Windows
+Operating System: Windows
 
-#### Software/Tools: Visual Studio Code, Power BI, Excel, Git
+Software/Tools: Visual Studio Code, Power BI, Excel, Git
 
-#### Database/Server: MySQL, PostgreSQL
+Database/Server: MySQL, PostgreSQL
 
-#### Programming Languages: C, C++, Python, SQL, HTML, CSS
+Programming Languages: C, C++, Python, SQL, HTML, CSS
 
-#### Frameworks: Django, Streamlit
+Frameworks: Django, Streamlit
 
 #### Python Libraries: Pandas, Matplotlib, Plotly, Seaborn, Numpy, Scikit-Learn, Keras, TensorFlow, NLTK, Django, streamlit, BeautifulSoup
 
