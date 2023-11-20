@@ -1,5 +1,6 @@
 # Portfolio
 
+## About Me
 Organized and dependable candidate successful at managing multiple priorities with a positive attitude. 
 Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology. 
 Willingness to take on additional responsibilities to meet the team and company goals. 
