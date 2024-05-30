@@ -1,9 +1,7 @@
 # Portfolio
 
 ## About Me
-Organized and dependable candidate successful at managing multiple priorities with a positive attitude. 
-Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology. 
-Willingness to take on additional responsibilities to meet the team and company goals. 
+Data Science enthusiast with a strong academic background in Mathematics and Computer Science, experienced in Data Analysis, Machine Learning, and proficient in Advanced Excel, Python, SQL and Power BI. Desperately waiting to gain hands-on experience to combine Ɵreless hunger for new skills with desire to exploit cuƫng-edge data science technology.
 
 ## Education
 Parul University, Gujarat  [_2020 – 2024_]
