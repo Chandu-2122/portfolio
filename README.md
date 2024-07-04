@@ -61,6 +61,7 @@ Under Graduation: BTech, Computer Science Engineering with Specialization in Art
 **Conclusion**:
 - The project demonstrates the capability to automate MCQ generation using modern AI tools, improving efficiency in educational content creation.
 
+___
 
 ### [**- Streamlit Breast Cancer Predictor App**](https://github.com/Chandu-2122/Streamlit_app)
 
