@@ -10,11 +10,12 @@ Under Graduation: BTech, Computer Science Engineering with Specialization in Art
 
 ## Technical Skills
 - Operating System: `Windows`
-- Software/Tools: `Visual Studio Code`, `Power BI`, `Excel`, `Git`
+- Data Visualization Tools: `Power BI`, `Excel`
 - Database/Server: `MySQL`, `PostgreSQL`
-- Programming Languages: `C`, `C++`, `Python`, `SQL`, `HTML`, `CSS`
+- Programming Languages: `Python`, `SQL`, `HTML`, `CSS`
 - Frameworks: `Django`, `Streamlit`
-- Python Libraries: `Pandas`, `Matplotlib`, `Seaborn`, `Numpy`, `Scikit-Learn`, `Keras`, `TensorFlow`, `NLTK`, `BeautifulSoup`
+- Python Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scikit-learn`, `NLTK`, `Spacy`, `BeautifulSoup`, `Langchain`, `openai`
+- Soft Skills: `Self-motivated`, `Quick learner`, `Social`, `Resilient`, `Team Player`, `Public Speaker`
 
 ## Projects
 
