@@ -20,7 +20,7 @@ Under Graduation: BTech, Computer Science Engineering with Specialization in Art
 - Database/Server: `MySQL`, `PostgreSQL`
 - Programming Languages: `Python`, `SQL`, `HTML`, `CSS`
 - Frameworks: `Django`, `Streamlit`
-- Python Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scikit-learn`, `NLTK`, `Spacy`, `BeautifulSoup`, `Langchain`, `openai`
+- Python Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scikit-learn`, `NLTK`, `spaCy`, `BeautifulSoup`, `LangChain`, `openai`
 - Soft Skills: `Self-motivated`, `Quick learner`, `Social`, `Resilient`, `Team Player`, `Public Speaker`
 
 ## Projects
