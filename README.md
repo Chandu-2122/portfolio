@@ -25,7 +25,7 @@ Under Graduation: BTech, Computer Science Engineering with Specialization in Art
 
 ## Projects
 
-### [**- Automated MCQ Generator Using Langchain OpenAI API**]()
+### [**- Automated MCQ Generator Using Langchain OpenAI API**](https://github.com/Chandu-2122/Automated-MCQ-Generator-App)
 
 **Objective**: Create a tool to automatically generate MCQs based on input text using advanced AI techniques.
 
