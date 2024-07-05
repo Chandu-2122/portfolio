@@ -136,7 +136,7 @@ ___
 
 ### [**- Streamlit Exploratory Data Analysis App**](https://chandu-2122-streamlit-eda-app-main-ehhr37.streamlit.app/)
 
-**Objective**: A one-line Exploratory Data Analysis (EDA) experience in a consistent and fast solution using ydata-profiling and Streamlit allowing users to conduct comprehensive EDA effortlessly.
+**Objective**: Create a one-line Exploratory Data Analysis (EDA) experience.
 
 **Working**: This app analyzes the uploaded CSV files, providing in-depth insights into the dataset's characteristics through exploratory data analysis techniques.
 
