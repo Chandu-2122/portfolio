@@ -1,7 +1,7 @@
 # Portfolio
 
 ## About Me
-Data Science enthusiast with a strong academic background in Mathematics and Computer Science, experienced in Data Analysis, Machine Learning, and proficient in Advanced Excel, Python, SQL and Power BI. Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cuƫng-edge data science technology.
+Data Analysis enthusiast with a strong academic background in Mathematics and Computer Science, experienced in Data Analysis, Machine Learning, and proficient in Advanced Excel, Python, SQL and Power BI. Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology.
 
 ## Education
 Parul University, Gujarat  [_2020 – 2024_]
@@ -9,59 +9,18 @@ Parul University, Gujarat  [_2020 – 2024_]
 Under Graduation: BTech, Computer Science Engineering with Specialization in Artificial Intelligence 
 
 ## Certifications
-- Generative AI, iNeuron
+- Foundational Generative AI, iNeuron
 - Prompt Engineering, AICTE
 - Advanced Analytics, Swinfy Solutions Pvt Ltd
-- Business Analytics with Excel, Simplilearn
 
 ## Technical Skills
 - Operating System: `Windows`
 - Data Visualization Tools: `Power BI`, `Excel`
-- Database/Server: `MySQL`, `PostgreSQL`
 - Programming Languages: `Python`, `SQL`, `HTML`, `CSS`
 - Frameworks: `Django`, `Streamlit`
-- Python Libraries: `NumPy`, `Pandas`, `Matplotlib`, `Scikit-learn`, `NLTK`, `spaCy`, `BeautifulSoup`, `LangChain`, `openai`
 - Soft Skills: `Self-motivated`, `Quick learner`, `Social`, `Resilient`, `Team Player`, `Public Speaker`
 
 ## Projects
-
-### [**- Automated MCQ Generator Using Langchain OpenAI API**](https://github.com/Chandu-2122/Automated-MCQ-Generator-App)
-
-**Objective**: Create a tool to automatically generate MCQs based on input text using advanced AI techniques.
-
-**Project Structure**:
-- **experiment**: Contains experimental code and logger setup.
-- **logs**: Directory for log files.
-- **mcqgenrator.egg-info**: Metadata and configuration for the project package.
-- **src**: Main source code directory.
-  - **MCQGenerator.py**: Core script for generating MCQs.
-  - **StreamlitAPP.py**: Streamlit application script.
-  - **test.py**: Testing script.
-- **data.txt**: Sample input data.
-- **Response.json**: Sample response data.
-- **requirements.txt**: List of required libraries.
-
-**Libraries Used**:
-- `openai`: Accesses the OpenAI API for language processing.
-- `langchain`: Implements language chain models for text analysis.
-- `streamlit`: Creates the web interface for the application.
-- `python-dotenv`: Manages environment variables.
-- `PyPDF2`: Extracts text from PDF files for generating MCQs.
-
-**Functionality**:
-- The application generates multiple-choice questions from provided text data.
-- Utilizes OpenAI API for language processing to create relevant questions and answers.
-- The Streamlit interface allows users to input text and view generated MCQs.
-
-**Example**:
-- User inputs text into the Streamlit app.
-- The app processes the text using Langchain and OpenAI API.
-- MCQs are generated and displayed to the user.
-
-**Conclusion**:
-- The project demonstrates the capability to automate MCQ generation using modern AI tools, improving efficiency in educational content creation.
-
-___
 
 ### [**- Streamlit Breast Cancer Predictor App**](https://github.com/Chandu-2122/Streamlit_app)
 
