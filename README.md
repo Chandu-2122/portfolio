@@ -1,7 +1,7 @@
 # Portfolio
 
 ## About Me
-Data Analysis enthusiast with a strong academic background in Mathematics and Computer Science, experienced in Data Analysis, Machine Learning, and proficient in Advanced Excel, Python, SQL and Power BI. Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology.
+AI/ML practitioner with hands-on experience in building LLM agents, RAG systems, and AI workflow automations. Skilled in creating startup-focused AI copilots, planners, and chatbots, with a strong base in Python, SQL, and automation tools. Previously worked on gaming analytics and medical AI, giving broad domain exposure. Focused on developing practical, human-centered AI systems that solve real problems.Desperately waiting to gain hands-on experience to combine tireless hunger for new skills with desire to exploit cutting-edge data science technology.
 
 ## Education
 Parul University, Gujarat  [_2020 – 2024_]
@@ -9,88 +9,170 @@ Parul University, Gujarat  [_2020 – 2024_]
 Under Graduation: BTech, Computer Science Engineering with Specialization in Artificial Intelligence 
 
 ## Certifications
-- Foundational Generative AI, iNeuron
-- Prompt Engineering, AICTE
+- IBM RAG and Agentic AI Specialization, Coursera
 - Advanced Analytics, Swinfy Solutions Pvt Ltd
 
 ## Technical Skills
 - Operating System: `Windows`
-- Data Visualization Tools: `Power BI`, `Excel`
-- Programming Languages: `Python`, `SQL`, `HTML`, `CSS`
-- Frameworks: `Django`, `Streamlit`
-- Soft Skills: `Self-motivated`, `Quick learner`, `Social`, `Resilient`, `Team Player`, `Public Speaker`
+- Programming Language: `Python`, `SQL`, `Javascript`
+- AI/ML & NLP: `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Text Classification`, `Sentiment Analysis`, `Model Evaluation`
+- Databases & Retrieval: `MySQL`, `ChromaDB`, `Pinecone`, `FAISS`, `HNSW`
+- LLM & Agentic AI Frameworks: `LangChain`, `LangGraph`, `LlamaIndex`, `LlamaParse`, `CrewAI`, `AutoGen`, `Ollama`, `OpenAI`
+- Application Development: `Streamlit`, `Gradio`, `Django`
+- Automation & Workflow Tools: `n8n`, `Airtable`, `OpenAI API`, `Gmail API`
+- Other Tools/Platforms: `Excel`, `Google Sheets`, `Power BI`, `Jupyter Notebook`, `Google Colab`, `VS Code`, `Github`
 
 ## Projects
 
-### [**- Streamlit Breast Cancer Predictor App**](https://github.com/Chandu-2122/Streamlit_app)
+### [**- Startup AutomationWorkflow [No Code]**](https://github.com/Chandu-2122/Startup-Automation-No_Code-Workflow)
 
-**Objective**: Build an app that predicts cancer by showing the visualization based on the given cell nuclei measurements.
+**Objective**: Automate first-level startup operations (lead management, branding requests, and customer inquiries) to save time and ensure every incoming request gets routed correctly.
 
-**Dataset Description**:
-- Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, describing characteristics of the cell nuclei present in the image.
+**Tech & Requirements**:
+- n8n → workflow automation
+- Airtable → database for leads + tracking status
+- Email APIs → for automated responses
 
-**Attribute Information**:
-- ID number
-- Diagnosis (M = malignant, B = benign)
-- Ten real-valued features are computed for each cell nucleus:
-- radius (mean of distances from center to points on the perimeter)
-- texture (standard deviation of gray-scale values)
-- perimeter
-- area
-- smoothness (local variation in radius lengths)
-- compactness (perimeter^2 / area - 1.0)
-- concavity (severity of concave portions of the contour)
-- concave points (number of concave portions of the contour)
-- symmetry
-- fractal dimension ("coastline approximation" - 1)
+**Workflow Features**:
+1. Lead Segmentation
+- Categories: Website Design, Branding & Logos, Landing Page, Email Automation, Social Media Kit, Personal Branding Strategy, AI Chatbot, Workshop Request, General Inquiry.
+- Stored in Airtable with status (new, in-progress, done) + extra tracking columns.
 
-The mean, standard error, and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
+2. Automated Routing
+- New form submission → automatically logged in Airtable.
+- Conditional branching in n8n routes leads based on category.
+- Sends personalized email replies with next steps.
 
-- All feature values are recorded with four significant digits.
-- Missing attribute values: none
-- Class distribution: 357 benign, 212 malignant
+3. Notifications & Updates
+- Team notified (Slack/Email) of new leads.
+- Airtable updated with response timestamps.
 
-**Project Structure**:
-- It has 3 folders:
-  - `app`:
-    - `main.py`: contains the main function of the app
-  - `data`:
-    - `data.csv`: contains the dataset
-  - `model`:
-    - `main.py`: contains logistic regression model code to predict
-    - `model.pkl`: pickle file of the model
-    - `scaler.pkl`: pickle file of the scaler
-
-**Libraries Used**:
-- `pandas`: used to clean the dataset by removing unnecessary columns and transforming categorical variables into numerical ones.
-- `StandardScaler`: used to preprocess numerical data before model training to ensure that different features have the same scale.
-- `train_test_split`: used to split datasets into training and testing subsets.
-- `LogisticRegression`: used to train a logistic regression model on labeled data where the target variable has two classes, predicting the probability of a sample belonging to a certain class.
-- `accuracy_score`: used to compare the predicted labels to the true labels and return the accuracy ratio of correctly predicted samples to the total number of samples.
-- `pickle`: used to save the machine learning model and scaler object into binary files to use later or in a different environment.
-- `streamlit`: used to create the user interface, generate sliders, visualize graphs, and display predictions.
-- `plotly.graph_objects`: used to create interactive plots and charts.
-- `numpy`: used for numerical operations in data preparation.
-
-**Data Preparation**:
-- The dataset is cleaned by:
-- Removing the unwanted columns for prediction: 'id', 'Unnamed: 32'.
-- Converting the output objects to integers.
-- Scaling the values using `StandardScaler`.
-
-**Visualization**:
-- Radar charts are useful for displaying multiple quantitative variables.
-- Plotly's radar chart (`go.ScatterPolar`) is used for visualizing the mean, standard error, and worst values of various features related to breast cancer diagnosis.
-
+**Learnings**:
+- No-code workflows like n8n can replace weeks of manual work for startups.
+- Airtable is a flexible backend but needs strict conventions for scale.
+  
 **App Snippet**:
-![streamlit_breast_cancer_predictor](https://github.com/Chandu-2122/Streamlit_app/assets/107211229/cf727799-6289-4688-bbb9-0c340b33b925)
+![image]()
 
-**Results**:
-- The undeployed Streamlit app is built, which visualizes the input values from a slider using a radar chart to represent mean, standard error, and worst values for various features related to breast cancer diagnosis. The predictions are displayed on the right side of the app, along with the probabilities of being benign or malignant based on the logistic regression model training on the input.
+**Future Improvements**:
+- Add CRM integration (HubSpot, Notion, ClickUp).
+- Track lead lifecycle beyond first response (follow-ups, conversions).
+- Use AI (OpenAI/LLM) to draft more personalized replies based on inquiry text.
 
-**Conclusion**:
-- The Streamlit framework made it easy to build a web application for machine learning by simplifying the creation of interactive and data-driven apps.
+___
 
+### [**- Founder's Local Copilot**](https://github.com/Chandu-2122/Founder-s-Local-Copilot)
+
+**Objective**: A private AI copilot that answers only from startup’s own documents (policies, roadmaps, investor memos).
+
+**Tech & Requirements**:
+- Streamlit
+- LangChain, LangChain Community, LangChain Ollama
+- LangGraph (for workflow routing)
+- FAISS + Sentence Transformers (for embeddings)
+- Unstructured (for local doc ingestion)
+
+**Project Files**:
+- **app.py** → Streamlit app
+- **graph.py** → defines app flow with LangGraph
+- **nodes.py** → nodes for docs, advice, marketing
+- **rag.py** → handles RAG ingestion, FAISS indexing
+- **model.py** → LLM connection.
+- **utils.py** → helpers
+- **requirements.txt** → lists Python dependencies for the project
+
+**Challenges Faced**:
+- Handling FAISS index load/save correctly.
+- Preventing the AI from hallucinating outside of documents.
+
+**Learnings**:
+- RAG improves accuracy but depends on good chunking & embeddings.
+- Routing with LangGraph makes the system modular and expandable.
+  
+**App Snippet**:
+![image](https://github.com/Chandu-2122/Founder-s-Local-Copilot/blob/8489ab761fcb6beff4b4ec34a375a80040bf79b6/Screenshot%202025-09-19%20012135.png)
+
+**Future Improvements**:
+- Add multi-doc support (PDFs, slides).
+- Implement caching for faster retrieval.
+- Expand beyond docs to handle integrations (email, Slack).
+  
+___
+
+### [**- Startup Advisor Chatbot**](https://github.com/Chandu-2122/Startup-Advisor-Chatbot)
+
+**Objective**: Help founders describe their current challenge and receive structured AI advice using multi-agent reasoning.
+
+**Tech & Requirements**:
+- AutoGen, AG2[OpenAI]
+- Streamlit
+- Ollama
+- Fix-busted-json
+
+**Project Files**:
+- **agents.py** → defines advisor agents
+- **chat.py** → chat interface
+- **health_code.py** → checks outputs & prevents broken JSON
+- **main_app.py** → Streamlit app
+- **model.py** → configures LLMs
+- **requirements.txt** → lists Python dependencies for the project
+
+**Challenges Faced**:
+- Ensuring consistent, valid JSON outputs for agent responses.
+- Balancing general advice vs. context-specific insights.
+
+**Learnings**:
+- Using health checks reduced invalid responses.
+- AI works better for structured frameworks rather than vague advice.
+  
+**App Snippet**:
+![image](https://github.com/Chandu-2122/Startup-Advisor-Chatbot/blob/788a973dc22a78edea3d0fe544eb191bba97c9d4/Screenshot%202025-09-17%20224133.png)
+![image](https://github.com/Chandu-2122/Startup-Advisor-Chatbot/blob/788a973dc22a78edea3d0fe544eb191bba97c9d4/Screenshot%202025-09-17%20224143.png)
+
+**Future Improvements**:
+- Add memory for ongoing conversations
+- Provide references for advice (case studies, frameworks).
+
+___
+
+### [**- AI Startup Planner**](https://github.com/Chandu-2122/AI-Startup-Planner)
+
+**Objective**: Build a multi-agent AI system that helps founders plan their startups with a refined idea, competitor search, market analysis, and action plan.
+
+**Tech & Requirements**:
+- CrewAI, CrewAI Tools
+- LangChain, LangChain Community, LangChain Ollama
+- Streamlit
+- DuckDuckGo Search
+
+**Project Files**:
+- **agents.py** → defines agents
+- **tasks.py** → defines roles
+- **tools.py** → definse tasks
+- **model.py** → connects LLM backend
+- **main_app.p**y → Streamlit app
+- **requirements.txt** → lists Python dependencies for the project
+- **startup_kit_YYYYMMDD_HHMMSS.zip** → Output folder with files: refined_idea.md, market_analysis.md, startup_plan.md
+
+**Challenges Faced**:
+- Prompt engineering needed for reliable competitor search results.
+- Sometimes outputs were too generic or repetitive.
+
+**Learnings**:
+- Multi-agent collaboration improves reasoning quality.
+- Trusting AI output requires cross-checking sources, especially in market analysis.
+  
+**App Snippet**:
+![image](https://github.com/Chandu-2122/AI-Startup-Planner/blob/7071112cd16021eb5f7e7068618d2bde08ee2582/Screenshot%202025-09-17%20215630.png)
+![image](https://github.com/Chandu-2122/AI-Startup-Planner/blob/712abfc2f20c1c25af8e57fb6adf7443a263e579/Screenshot%202025-09-17%20215644.png)
+![image](https://github.com/Chandu-2122/AI-Startup-Planner/blob/712abfc2f20c1c25af8e57fb6adf7443a263e579/Screenshot%202025-09-17%20215655.png)
+![image](https://github.com/Chandu-2122/AI-Startup-Planner/blob/712abfc2f20c1c25af8e57fb6adf7443a263e579/Screenshot%202025-09-17%20215708.png)
+![image](https://github.com/Chandu-2122/AI-Startup-Planner/blob/712abfc2f20c1c25af8e57fb6adf7443a263e579/Screenshot%202025-09-17%20215727.png)
+
+**Future Improvements**:
+-  Add PDF/Excel export for plans.
+-  Enhance competitor search with APIs like Crunchbase.
+  
 ___
 
 ### [**- Streamlit Exploratory Data Analysis App**](https://chandu-2122-streamlit-eda-app-main-ehhr37.streamlit.app/)
